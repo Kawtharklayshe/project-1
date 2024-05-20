@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Design</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card {
+      border: none;
+      border-radius: 0.75rem;
+      overflow: hidden;
+      padding: 15px;
+    }
+    .card-img-top {
+      border-radius: 0.75rem;
+    }
+    .card-title {
+      font-weight: bold;
+    }
+    .card-text {
+      color: #b85c00;
+    }
+    .btn-show-more {
+      background-color: #ff9400;
+      color: white;
+      border-radius: 0.75rem;
+    }
+    .price, .discounted-price {
+      color: #b85c00;
+    }
+    .add-to-cart-btn {
+      background-color: #ff9400;
+      color: white;
+      width: 100%;
+      border-radius: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="card">
+      <img src="https://via.placeholder.com/600x300" class="card-img-top" alt="Carrot Image">
+      <div class="card-body">
+        <h5 class="card-title">Carrot</h5>
+        <p class="card-text">Vegetables</p>
+        <p class="card-text">Carrot</p>
+        <button class="btn btn-show-more mb-3">Show More</button>
+        <p class="card-text">Carrot Description Carrot Description Carrot Description Carrot Description Carrot Description Carrot Description Carrot Description</p>
+        <p class="price">132.21 AED</p>
+        <p class="discounted-price"><s>146.90 AED</s></p>
+        <button class="btn add-to-cart-btn">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
